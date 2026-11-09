@@ -34,6 +34,9 @@ export const SKU_MAP = {
   "GJC-JKGW-BLK-XL": 5507135817,
   "GJC-JKGW-BLK-2XL": 5507135818,
   "GJC-JKGW-BLK-3XL": 5507135819,
+
+  // GJC Embroidered patch
+  "GJC-PATCH-EMB-DEFAULT": 5630429838,
 };
 
 function readRawBody(req) {
