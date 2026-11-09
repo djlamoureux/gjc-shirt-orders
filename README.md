@@ -4,7 +4,7 @@ This Vercel serverless function receives paid ClickFunnels orders and creates th
 
 ## What it protects
 
-The function accepts only `one-time-order.completed` events and validates the ClickFunnels HMAC-SHA256 signature using the raw request body. It supports one or more GJC shirt line items in a single order. Each Printful order receives the ClickFunnels order ID as its unique `external_id`, allowing the listener to look up and return a prior Printful order when ClickFunnels retries a delivery. This provides durable, database-free duplicate protection.
+The function accepts only `one-time-order.completed` events and validates the ClickFunnels HMAC-SHA256 signature using the raw request body. It supports one or more mapped GJC line items (shirts and the embroidered patch) in a single order. Each Printful order receives the ClickFunnels order ID as its unique `external_id`, allowing the listener to look up and return a prior Printful order when ClickFunnels retries a delivery. This provides durable, database-free duplicate protection.
 
 ## Active mappings
 
@@ -13,6 +13,7 @@ The function accepts only `one-time-order.completed` events and validates the Cl
 | `GJC-ESTR-WHT-*` | GJC TShirt - Eat Sleep Throw Repeat 2 | S, M, L, XL, 2XL, 3XL |
 | `GJC-JLC-WHT-*` | GJC TShirt - Judoka Lifecycle 2 | S, M, L, XL, 2XL, 3XL |
 | `GJC-JKGW-BLK-*` | Georgetown Judo Club TShirt - Judo Kanji the Gentle Way 2 | S, M, L, XL, 2XL, 3XL |
+| `GJC-PATCH-EMB-DEFAULT` | GJC Embroidered patch | one size |
 
 ## Required Vercel environment variables
 
