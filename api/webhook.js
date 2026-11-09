@@ -10,6 +10,7 @@ const SIGNATURE_TOLERANCE_SECONDS = 600;
  */
 export const SKU_MAP = {
   // GJC TShirt - Eat Sleep Throw Repeat 2
+  "GJC-ESTR-WHT-DEFAULT": 5507237633,
   "GJC-ESTR-WHT-S": 5507237633,
   "GJC-ESTR-WHT-M": 5507237634,
   "GJC-ESTR-WHT-L": 5507237635,
@@ -26,6 +27,7 @@ export const SKU_MAP = {
 "GJC-JLC-WHT-3XL": 5521444671,
 
   // Georgetown Judo Club TShirt - Judo Kanji the Gentle Way 2
+  "GJC-JKGW-BLK-DEFAULT": 5507135814,
   "GJC-JKGW-BLK-S": 5507135814,
   "GJC-JKGW-BLK-M": 5507135815,
   "GJC-JKGW-BLK-L": 5507135816,
